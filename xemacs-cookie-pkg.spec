@@ -2,12 +2,12 @@ Summary:	Spook and Yow (Zippy quotes)
 Summary(pl):	Spook i Yow (zestawy cytatów)
 Name:		xemacs-cookie-pkg
 %define 	srcname	cookie
-Version:	1.14
+Version:	1.15
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	50581960785fb3949faabaae49896c32
+# Source0-md5:	70b4bde06580ec71df2a23aa95808bb7
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
