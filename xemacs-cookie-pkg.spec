@@ -1,5 +1,5 @@
 Summary:	Spook and Yow (Zippy quotes)
-Summary(pl.UTF-8):   Spook i Yow (zestawy cytatów)
+Summary(pl.UTF-8):	Spook i Yow (zestawy cytatów)
 Name:		xemacs-cookie-pkg
 %define 	srcname	cookie
 Version:	1.15
