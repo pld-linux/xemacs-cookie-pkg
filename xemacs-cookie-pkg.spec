@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Spook i Yow (zestawy cytatów)
 Name:		xemacs-cookie-pkg
 %define 	srcname	cookie
 Version:	1.15
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
@@ -38,7 +38,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/cookie/ChangeLog
+%doc %{_datadir}/xemacs-packages/lisp/cookie/ChangeLog
+%doc %{_datadir}/xemacs-packages/pkginfo/MANIFEST.cookie
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
